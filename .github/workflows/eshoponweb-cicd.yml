@@ -7,6 +7,7 @@ on: workflow_dispatch
 env:
   RESOURCE-GROUP: rg-eshoponweb-eastus
   #LOCATION: westeurope
+  LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: aafbc645-05d1-4ab3-be96-b4cb937d2419
   WEBAPP-NAME: devops-webapp-eastus-1734221542
